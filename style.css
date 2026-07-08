@@ -1,0 +1,165 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* To-Do List */
+#todo {
+    text-align: center;
+}
+
+#taskInput {
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #1e3a8a;
+    border-radius: 5px;
+}
+
+#addBtn {
+    padding: 10px 15px;
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addBtn:hover {
+    background-color: #2563eb;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#taskList li {
+    margin: 10px auto;
+    width: 300px;
+    background-color: #f4f6f8;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.removeBtn {
+    margin-left: 10px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Fixed Nav Bar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1e3a8a;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Headings */
+h2 {
+    color: #1e3a8a;
+    font-family: Georgia, serif;
+}
+
+/* Paragraphs */
+#about p {
+    color: #444;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+#skills p {
+    color: #006400;
+}
+
+/* Skills List */
+ul {
+    padding-left: 25px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #0f766e;
+    font-weight: bold;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #1e3a8a;
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #1e3a8a;
+    border-radius: 10px;
+}
+
+/* Video */
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
